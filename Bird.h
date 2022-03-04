@@ -8,6 +8,9 @@
 #define CSCE306_PORTFOLIO_BIRD_H
 
 class Bird {
+    public:
+
+    private:
     
 };
 
