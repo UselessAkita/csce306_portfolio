@@ -5,3 +5,9 @@
 // Code Summary:
 
 #include "Bird.h"
+#include <iostream>
+using namespace std;
+
+void poop() {
+    cout << "Poopie" << endl;    
+}
