@@ -5,11 +5,10 @@
 // Code Summary:
 
 #include <iostream>
-#include "Bird.h"
 
 using namespace std;
 
 int main() {
-    cout << "Tweet, Tweet, Chirp" << endl;
+    cout << "Test" << endl;
     return 0;
 }
