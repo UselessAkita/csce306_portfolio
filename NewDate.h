@@ -28,7 +28,7 @@ public:
         // sets the current month to a new value between 1-12 then calls set_month_string() passing the integer value to set the month’s name
         string months[12] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
         month_numeral = new_month_numeral;
-        set_month_string(months[new_month_numeral]);
+        set_month_string(months[new_month_numeral - 1]);    // Subtracts one to match month index
     }
     void set_year(int new_year)
     {
