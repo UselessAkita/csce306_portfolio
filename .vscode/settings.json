@@ -6,6 +6,10 @@
         "istream": "cpp",
         "functional": "cpp",
         "tuple": "cpp",
-        "utility": "cpp"
-    }
+        "utility": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "iostream": "cpp"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }
