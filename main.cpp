@@ -12,7 +12,7 @@ using namespace std;
 
 int main()
 {
-    NewDate test_date = NewDate(3, 25, 2002);
+    NewDate test_date = NewDate(3, 25, "March", 2002);
     cout << "\tTest Date" << endl;
     cout << "\t\tMonth: " << test_date.get_month() << " (" << test_date.get_month_string() << ")" << endl;
     cout << "\t\tDay: " << test_date.get_day() << endl;

@@ -3,11 +3,14 @@
 
 using namespace std;
 
+#ifndef CSCE306_PORTFOLIO_NEWDATE_H
+#define CSCE306_PORTFOLIO_NEWDATE_H
+
 class NewDate
 {
-public:
+public: 
     // Constructor when the day, month, and year are given
-    NewDate(int, int, int);
+    NewDate(int, int, string, int);
 
     int get_day();
     string get_month_string();
@@ -22,7 +25,9 @@ protected:
 
 private:
     int day_numeral;
-    string month_string;
+    string month_string = "Undeveloped";
     int month_numeral;
     int year_numeral;
 };
+
+#endif //CSCE306_PORTFOLIO_NEWDATE_H

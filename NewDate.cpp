@@ -5,8 +5,8 @@
 
 using namespace std;
 
-NewDate::NewDate(int month, int day, int year)
-    : month_numeral{month}, day_numeral{day}, year_numeral{year}
+NewDate::NewDate(int month, int day, string month_string, int year)
+    : month_numeral{month}, day_numeral{day}, month_string{month_string}, year_numeral{year}
 {
 }
 
