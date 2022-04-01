@@ -1,15 +1,6 @@
-# csce306_portfolio
-
-
-Lab 10: Create a File Repository in Git Hub.
-1) Create a login to GitHub
-2) Login to GitHub
-3) Create a Repository (for a C++ project)
-4) Using a local IDE (code editor), clone the project.
-5) Create a Branch inside the code editor
-6) Create three files (four if you need a CMake text file)
-Class File, Header File, main (driver file) CMake
-7) Commit the Changes to the local branch
-8) Create a pull request (communicate with the server)
-9) Merge the Local Repo with the Online Repo
-
+Calendar/Planning Application
+I want to focus on developing a calendar app. Now, this seems like a problem that’s gotten solved. There are plenty of calendar apps like the one on your phone, Monday, ClickUp, Trello, Smartsheet; you name it. The biggest issue with these apps is keeping track of physical things. That may not make too much sense, so let me explain it a bit. Focusing first on the calendar app on your phone, it’s at a bare minimum state. It’s good at keeping track of events or meetings that are coming up, but how good is it at keeping track of your assignments? People have found workarounds and ways to be efficient, but it takes more time creating a custom event on my phone to keep track of due dates than writing it on a sticky note. 
+Okay, what about apps like ClickUp? Not to show favoritism, but this was one of the more polished scheduling applications that I liked. Companies have created apps like these for businesses, not individuals. You can use these apps for yourself, and I have used them for that purpose, but they don’t accomplish what I want to get accomplished. My biggest issue is a bunch of the useless business jargon that’s persistent when I’m using it for personal use. Like why would I need an option to assign a personal project to myself when I’m the only person in the workspace?
+I’ve had a problem with all these different planners because they aren’t getting built for students. Some apps got advertised as ‘for students,’ but they’re missing key features students need. So this leads to what I want to create for this portfolio assignment. I want to develop something that’s purely aimed at being for students. I want an application that will allow me to create a homework assignment with an assignment date and a due date. I want to quickly generate homework assignments without having to finick with many different preferences. The goal is to set up various courses within the application that you can preselect to expedite the assignment creation. Why should you fill out ten sections of what class it is for, what professor, when, where, etc. when I can do that once and move on.
+For example, if I wanted to create an assignment for reading a passage from page x to page y, I could select the premade course, in this case, philosophy. Then I would choose what type of assignment, a reading assignment. I could type in pages x to y or add different pages if split up. However, if I wanted to create an assignment for computer science, I don’t need to have book pages, so I could select another project, in this case, a lab. I still need to sit down and decide what needs to be implemented directly into this program. I intend to ask other students what they would want in a planning app and create something for the community and, maybe in the future, for other students.
+I don’t plan on stopping there. Once I reach that goal, I want to continue developing the application to have more features that I feel need to be present. I don’t want to overcomplicate the application or bloat it with too many features. However, I still want to have the functionality and practicality of using it daily.
